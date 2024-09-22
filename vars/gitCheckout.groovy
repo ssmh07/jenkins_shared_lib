@@ -1,4 +1,3 @@
-# Jenkins shared file
 def call(Map stageParam){
     checkout{[
         $class: "GitSCM",
